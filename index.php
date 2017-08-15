@@ -1,13 +1,10 @@
 <?php
 
 require_once ('config.php');
-//require_once ('lib/Mysql.php');
-//require_once ('lib/Sql.php');
-//require_once ('lib/MY_TEST.php');
-require_once __DIR__ . '/autoload.php';
-
-use lib\MY_TEST;
-
+require_once ('lib/Mysql.php');
+require_once ('lib/Sql.php');
+require_once ('lib/MY_TEST.php');
+require_once ('lib/ActivRecord.php');
 try
 {
 	$allRes = MY_TEST::findAll();

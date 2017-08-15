@@ -1,8 +1,6 @@
 <?php
 
-namespace lib;
 
-use lib\MySql;
 abstract class ActivRecord extends MySql
 {
     public static function findAll()

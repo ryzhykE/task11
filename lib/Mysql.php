@@ -1,6 +1,6 @@
 <?php
 
-namespace lib;
+require_once ('lib/Sql.php');
 
 class MySql extends Sql
 {

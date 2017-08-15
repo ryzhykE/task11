@@ -1,6 +1,6 @@
 <?php
 
-namespace lib;
+require_once ('lib/ActivRecord.php');
 
 class MY_TEST extends ActivRecord
 {
